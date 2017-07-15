@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	margin: 70px;
+	box-shadow: 8px 14px 20px 8px darkorange;
+	padding: 20px;
+	height: 500px;
+}
+
+#home, #aboutUs, #team, #contactUs{
+	background: linear-gradient(white, pink, blue);
+}
+
+header h1{
+	color: purple;
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: navy;
+	justify-content: space-around;
+	align-items: center;
+	height: 60px;
+	width: 100%;
+}
+
+nav ul li {
+	list-style: none;
+	color: white;
+	margin-left: 5px;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited{
+	color: lightpink;
+}
+
+a:hover {
+	color: yellow;
+}
+
+#moveToTop{
+		position: fixed;
+		bottom: 40px;
+		right: 40px;
+		font-size: 30px;
+		color: navy;
+		font-weight: bold;
+		border-color: navy;
+		padding: 4px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smooth Scroll</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<nav>
+    <ul>    
+        <li><a href="#home" onclick="smoothScroll(this.hash.slice(1))"><h1>Home</h1></a></li>
+        <li><a href="#aboutUs" onclick="smoothScroll(this.hash.slice(1))"><h1>About Us</h1></a></li>
+        <li><a href="#team" onclick="smoothScroll(this.hash.slice(1))"><h1>Team</h1></a></li>
+        <li><a href="#contactUs" onclick="smoothScroll(this.hash.slice(1))"><h1>Contact Us</h1></a></li>
+    </ul>
+</nav>
+
+
+<section id="home">
+<header> <h1>Home</h1> </header>
+</section>
+
+
+<section id="aboutUs">
+<header><h1> About Us </h1></header>
+</section>
+
+
+<section id="team">
+<header><h1> Team </h1></header>
+</section>
+
+
+<section id="contactUs">
+<header><h1> Contact Us </h1></header>
+</section>
+
+<button id="moveToTop">Move To Top</button>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
